@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 //config 
 if(process.env.NODE_ENV!=="PRODUCTION"){
     require("dotenv").config({
-        path:"../backed/config/config.env"
+        path:"backed/config/config.env"
     })}
   
 

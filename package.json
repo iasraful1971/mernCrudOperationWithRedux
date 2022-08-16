@@ -2,14 +2,14 @@
   "name": "mern-curd",
   "version": "1.0.0",
   "description": "",
-  "main": "backend/server.js",
+  "main": "backed/server.js",
   "engines": {
     "node": "17.3.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node backend/server.js",
-    "dev": "nodemon  backend/server.js",
+    "start": "node backed/server.js ",
+    "dev": "nodemon backed/server.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "keywords": [],
